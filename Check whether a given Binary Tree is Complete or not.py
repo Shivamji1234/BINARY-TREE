@@ -32,6 +32,16 @@ class binary:
             q=nq
             nq=[]
         return True,"complete binary tree"
+# Driver program to test above function
+  
+""" Let us construct the following Binary Tree which
+      is not a complete Binary Tree
+            1
+          /   \
+         2     3
+        / \     \
+       4   5     6
+    """
 
 root = Node(1)
 root.left = Node(2)
